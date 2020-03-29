@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/rick"
+            android:scaleType = "centerCrop"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="580dp">
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:text="START"
+                android:id="@+id/button" android:textColor="@android:color/holo_purple"
+                android:background="@color/colorPrimaryDark"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:text="EXIT"
+                android:id="@+id/button2" android:textColor="@android:color/holo_purple"
+                android:background="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+</RelativeLayout>
